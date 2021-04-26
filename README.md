@@ -1,1 +1,1 @@
-"# Initialized with love" 
+# Initialized with love
