@@ -1,11 +1,13 @@
 import React from 'react'
 
+import "../styles/sidebar.scss"
+
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <header className="main-header">
                 <h1 className="main-header__title">
-                    niteczeki daneczki
+                    niteczki daneczki
                 </h1>
             </header>
             <nav className="main-nav">
