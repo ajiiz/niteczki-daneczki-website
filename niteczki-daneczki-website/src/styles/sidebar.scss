@@ -48,6 +48,11 @@
 
             &-text {
                 cursor: pointer;
+                transition: color .5s ease;
+
+                &:hover {
+                    color: #d4145a;
+                }
             }
         }
     }
