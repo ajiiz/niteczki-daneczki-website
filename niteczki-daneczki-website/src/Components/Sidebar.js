@@ -7,7 +7,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <header className="main-header">
                 <h1 className="main-header__title">
-                    <a href="https://www.instagram.com/niteczkidaneczki/" className="main-header__title-link">NDaneczki.</a>
+                    <a href="https://www.instagram.com/niteczkidaneczki/" target="_blank" rel="noreferrer" className="main-header__title-link">NDaneczki.</a>
                 </h1>
             </header>
             <nav className="main-nav">
@@ -19,7 +19,7 @@ const Sidebar = () => {
                 </ul>
             </nav>
             <div className="copyright">
-                <a href="https://github.com/ajiiz" className="copyright-link">
+                <a href="https://github.com/ajiiz" target="_blank" rel="noreferrer" className="copyright-link">
                     © ajiiz.piotrwrobel
                 </a>
             </div>
