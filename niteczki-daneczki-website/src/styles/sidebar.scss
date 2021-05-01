@@ -21,3 +21,13 @@
         font-weight: lighter;
     }
 }
+
+.main-nav {
+    height: 70%;
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 15% 30px;
+    }
+}
