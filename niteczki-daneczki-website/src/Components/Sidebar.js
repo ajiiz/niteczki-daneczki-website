@@ -7,18 +7,16 @@ const Sidebar = () => {
         <div className="sidebar">
             <header className="main-header">
                 <h1 className="main-header__title">
-                    <a href="https://www.instagram.com/niteczkidaneczki/">niteczki daneczki</a>
+                    <a href="https://www.instagram.com/niteczkidaneczki/" className="main-header__title-link">niteczki daneczki</a>
                 </h1>
             </header>
             <nav className="main-nav">
-                <div className="main-nav__container">
-                    <ul className="main-nav__container__menu">
-                        <li className="main-nav__container__menu-item">o mnie</li>
-                        <li className="main-nav__container__menu-item">prace</li>
-                        <li className="main-nav__container__menu-item">galeria</li>
-                        <li className="main-nav__container__menu-item">kontakt</li>
-                    </ul>
-                </div>
+                <ul className="main-nav__menu">
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">o mnie</span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">prace</span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">galeria</span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">kontakt</span></li>
+                </ul>
             </nav>
             <span className="copyright">
                 ©
