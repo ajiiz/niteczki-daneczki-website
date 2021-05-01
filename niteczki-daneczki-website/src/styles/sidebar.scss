@@ -59,4 +59,12 @@
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
+
+    &-link {
+        transition: color .5s ease;
+
+        &:hover {
+            color: #d4145a;
+        }
+    }
 }
