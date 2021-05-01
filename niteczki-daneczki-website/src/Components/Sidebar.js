@@ -7,7 +7,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <header className="main-header">
                 <h1 className="main-header__title">
-                    niteczki daneczki
+                    <a href="https://www.instagram.com/niteczkidaneczki/">niteczki daneczki</a>
                 </h1>
             </header>
             <nav className="main-nav">
