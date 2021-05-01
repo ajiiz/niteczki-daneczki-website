@@ -26,6 +26,12 @@
 
         &-link {
             text-align: start;
+            transition: opacity .5s ease;
+
+            &:hover {
+                opacity: 0.6;
+            }
+
         }
     }
 }
