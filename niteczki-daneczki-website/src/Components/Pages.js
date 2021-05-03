@@ -1,9 +1,11 @@
 import Homepage from "./Home"
 
-export default Pages = () => {
+const Pages = () => {
     return (
         <>
             <Homepage />
         </>
     )
 }
+
+export default Pages
