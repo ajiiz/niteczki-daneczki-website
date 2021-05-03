@@ -5,6 +5,7 @@
     width: 83%;
     height: 100vh;
     color: #363636;
+    font-size: 17px;
 }
 
 .header {
@@ -17,12 +18,10 @@
 }
 
 .header-image {
-    height: 70%;
+    height: 65%;
 }
 
 .content {
-    width: 35%;
-
     &__header {
         text-transform: uppercase;
         font-size: 3em;
@@ -30,11 +29,45 @@
 
     &__info {
         display: block;
-        //color: #009A33;
-        &__line::before {
-            content: '\A';
-            white-space: pre;
+        font-size: 1.2em;
+        font-weight: lighter;
+        opacity: 0.9;
+        margin-top: 10px;
+
+        &__line {
+            display: block;
+            padding: 1px 0 1px 0;
         }
+
+        &__line:nth-child(3) {
+            padding: 15px 0 1px 0;
+            color: #01812c;
+        }
+    }
+
+    &__contact {
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 25px;
+        padding: 11px;
+        border: 2px solid #01812c;
+        letter-spacing: 1.5px;
+        transition: all .5s ease;
+    }
+
+    &__contact:hover {
+        font-size: 1.2em;
+        background-color: #363636;
+        color: #ffff;
+        border: 2px solid #01812c;
+    }
+
+    &__contact:focus {
+        font-size: 1.2em;
+        background-color: #363636;
+        color: #ffff;
+        border: 2px solid #00250d;
     }
 }
 
