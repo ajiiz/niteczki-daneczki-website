@@ -27,3 +27,8 @@ a, a:hover, a:visited {
   outline: none;
   text-decoration: none;
 }
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
