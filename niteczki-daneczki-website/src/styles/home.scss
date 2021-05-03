@@ -8,7 +8,7 @@
     width: 83%;
     height: 100vh;
     color: $font;
-    background-color: $white;
+    background-color: $white-main;
     font-size: 17px;
 }
 
@@ -62,15 +62,15 @@
 
     &__contact:hover {
         font-size: 1.2em;
-        background-color: $font;
-        color: $white;
+        background-color: $background-black;
+        color: $white-main;
         border: 2px solid $green-main;
     }
 
     &__contact:focus {
         font-size: 1.2em;
-        background-color: $font;
-        color: $white;
+        background-color: $background-black;
+        color: $white-main;
         border: 2px solid $green-focus;
     }
 }
