@@ -16,14 +16,16 @@ const Home = () => {
                         <span className="content__info__line">Szydełkuję na zamówienie i jestem otwarta na propozycję.</span>
                         <span className="content__info__line">Gorąco zapraszam do kontaktu.</span>
                     </h3>
-                    <button className="content__contact">
-                        kontakt
-                    </button>
+                    <a href="https://www.facebook.com/danutawrobel1950" target="_blank" rel="noreferrer">
+                        <button className="content__contact">
+                            kontakt
+                        </button>
+                    </a>
                 </div>
                 <img className="header-image" src={Flowers}></img>
             </div>
             <div className="scroll-down">
-                <p className="scroll-down__text">przejdź dalej</p>
+                <p className="scroll-down__text">dowiedz się więcej</p>
                 <ArrowDownIcon className="scroll-down__btn" />
             </div>
         </div>
