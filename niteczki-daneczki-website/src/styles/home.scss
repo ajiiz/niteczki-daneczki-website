@@ -79,7 +79,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: moveArrow 1.2s ease infinite;
+    animation: moveArrow 1.1s ease infinite;
+    transition: color .5s ease;
 
     &__text {
         text-transform: uppercase;
@@ -96,12 +97,17 @@
     }
 }
 
+.scroll-down:hover {
+    animation-play-state: paused;
+    color: $green-main;
+}
+
 @keyframes moveArrow {
     0% {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(7px);
+        transform: translateY(8px);
     }
     100% {
         transform: translateY(0px);
