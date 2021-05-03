@@ -1,10 +1,13 @@
+@import "variables";
+
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 83%;
     height: 100vh;
-    color: #363636;
+    color: $font;
+    background-color: $white;
     font-size: 17px;
 }
 
@@ -41,7 +44,7 @@
 
         &__line:nth-child(3) {
             padding: 15px 0 1px 0;
-            color: #01812c;
+            color: $green-main;
         }
     }
 
@@ -51,23 +54,23 @@
         font-weight: bold;
         margin-top: 25px;
         padding: 11px;
-        border: 2px solid #01812c;
+        border: 2px solid $green-main;
         letter-spacing: 1.5px;
         transition: all .5s ease;
     }
 
     &__contact:hover {
         font-size: 1.2em;
-        background-color: #363636;
-        color: #ffff;
-        border: 2px solid #01812c;
+        background-color: $font;
+        color: $white;
+        border: 2px solid $green-main;
     }
 
     &__contact:focus {
         font-size: 1.2em;
-        background-color: #363636;
-        color: #ffff;
-        border: 2px solid #00250d;
+        background-color: $font;
+        color: $white;
+        border: 2px solid $green-focus;
     }
 }
 
