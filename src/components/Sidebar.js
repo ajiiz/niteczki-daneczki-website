@@ -1,10 +1,19 @@
 import React from "react"
 
+import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/solid'
+
 import "../styles/sidebar.scss"
 
-const Sidebar = () => {
+const Sidebar = ({ isSidebar, handleSidebar }) => {
     return (
-        <div className="sidebar">
+        <div className={isSidebar ? "sidebar sidebar-active" : "sidebar"}>
+            {
+                isSidebar ?
+                    <ChevronDoubleLeftIcon onClick={handleSidebar} className="sidebar-trigger" />
+                :
+                    <ChevronDoubleRightIcon onClick={handleSidebar} className="sidebar-trigger" />
+            }
+
             <header className="main-header">
                 <h1 className="main-header__title">
                     <a href="https://www.instagram.com/niteczkidaneczki/" target="_blank" rel="noreferrer" className="main-header__title-link">NDaneczki.</a>

@@ -1,3 +1,11 @@
 .pages {
     width: 100%;
+    margin-left: 0px;
+    font-size: 17px;
+    opacity: 1;
+    transition: opacity ease .8s;
+}
+
+.pages-active {
+    opacity: .5;
 }
