@@ -1,10 +1,13 @@
 import React from "react"
 
+import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
+
 import "../styles/sidebar.scss"
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
+            <ChevronDoubleRightIcon className="sidebar-trigger" />
             <header className="main-header">
                 <h1 className="main-header__title">
                     <a href="https://www.instagram.com/niteczkidaneczki/" target="_blank" rel="noreferrer" className="main-header__title-link">NDaneczki.</a>
