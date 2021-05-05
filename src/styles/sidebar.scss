@@ -111,3 +111,22 @@
         transform: translateX(0px);
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        font-size: 14px;
+        width: 60vw;
+    }
+}
