@@ -2,7 +2,8 @@
 
 .sidebar {
     position: fixed;
-    width: 326px;
+    z-index: 1;
+    width: 25vw;
     height: 100vh;
     background-color: $background-black;
     display: flex;
@@ -20,9 +21,9 @@
     position: absolute;
     width: 50px;
     top: 15px;
+    left: 100%;
     color: $background-black;
     cursor: pointer;
-    transform: translateX(326px);
     animation: moveTrigger 1.1s ease infinite;
 }
 
@@ -101,12 +102,12 @@
 
 @keyframes moveTrigger {
     0% {
-        left: translateX(326px);
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(340px);
+        transform: translateX(10px);
     }
     100% {
-        transform: translateX(326px);
+        transform: translateX(0px);
     }
 }
