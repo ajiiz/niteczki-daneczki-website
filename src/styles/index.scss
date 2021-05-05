@@ -10,6 +10,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   color: $white-main;
   -webkit-font-smoothing: antialiased;
