@@ -10,6 +10,15 @@
     font-size: 16px;
 }
 
+.sidebar-trigger {
+    width: 50px;
+    top: 15px;
+    position: absolute;
+    color: $background-black;
+    cursor: pointer;
+    transform: translateX(326px);
+}
+
 .main-header {
     height: 25%;
     display: flex;
