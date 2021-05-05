@@ -11,12 +11,13 @@
 }
 
 .sidebar-trigger {
+    position: absolute;
     width: 50px;
     top: 15px;
-    position: absolute;
     color: $background-black;
     cursor: pointer;
     transform: translateX(326px);
+    animation: moveTrigger 1.1s ease infinite;
 }
 
 .main-header {
@@ -89,6 +90,18 @@
         &:hover {
             color: $pink-main;
         }
+    }
+}
+
+@keyframes moveTrigger {
+    0% {
+        left: translateX(326px);
+    }
+    50% {
+        transform: translateX(340px);
+    }
+    100% {
+        transform: translateX(326px);
     }
 }
 
