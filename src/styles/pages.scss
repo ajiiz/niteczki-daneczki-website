@@ -1,9 +1,11 @@
 .pages {
-    margin-left: 0px;
     width: 100%;
-    transition: margin ease .8s;
+    margin-left: 0px;
+    font-size: 17px;
+    opacity: 1;
+    transition: opacity ease .8s;
 }
 
 .pages-active {
-    margin-left: 326px;
+    opacity: .5;
 }
