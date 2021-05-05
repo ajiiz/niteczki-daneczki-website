@@ -6,7 +6,7 @@ import "../styles/sidebar.scss"
 
 const Sidebar = ({ isSidebar, handleSidebar }) => {
     return (
-        <div className="sidebar">
+        <div className={isSidebar ? "sidebar sidebar-active" : "sidebar"}>
             {
                 isSidebar ?
                     <ChevronDoubleLeftIcon onClick={handleSidebar} className="sidebar-trigger" />
