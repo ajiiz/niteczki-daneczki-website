@@ -8,6 +8,12 @@
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    transition: transform ease .8s;
+    transform: translateX(-100%)
+}
+
+.sidebar-active {
+    transform: translateX(0%)
 }
 
 .sidebar-trigger {
@@ -102,11 +108,5 @@
     }
     100% {
         transform: translateX(326px);
-    }
-}
-
-@media (max-width: 1640px) {
-    .sidebar {
-        transform: translateX(-100%)
     }
 }
