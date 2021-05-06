@@ -11,17 +11,17 @@ const About = () => {
         <div className="about">
             <ul className="about-list">
                 <li className="about-list__item">
-                    <img className="about-list__item-img" src={Work}></img>
+                    <img className="about-list__item-img" src={Work} alt="about-work"></img>
                     <h2 className="about-list__item-header">Praca</h2>
                     <p className="about-list__item-content">Szybko i dokładnie wykonuję szydełkowe zlecenia.</p>
                 </li>
                 <li className="about-list__item">
-                    <img className="about-list__item-img" src={Send}></img>
+                    <img className="about-list__item-img" src={Send} alt="about-send"></img>
                     <h2 className="about-list__item-header">Cena i wysłanie</h2>
                     <p className="about-list__item-content">Cena zależna od projektu jest do ustalenia. Wysyłam paczki w każde zakątki świata.</p>
                 </li>
                 <li className="about-list__item">
-                    <img className="about-list__item-img" src={Review}></img>
+                    <img className="about-list__item-img" src={Review} alt="about-review"></img>
                     <h2 className="about-list__item-header">Ocena</h2>
                     <p className="about-list__item-content">Posiadam wiele zadowolonych klientek z całego świata.</p>
                 </li>

@@ -22,7 +22,7 @@ const Home = () => {
                         </button>
                     </a>
                 </div>
-                <img className="header-image" src={Flowers}></img>
+                <img className="header-image" src={Flowers} alt="header-flowers"></img>
             </div>
             <div className="scroll-down">
                 <p className="scroll-down__text">dowiedz się więcej</p>
