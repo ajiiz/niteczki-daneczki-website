@@ -22,9 +22,13 @@
     width: 50px;
     top: 15px;
     left: 100%;
-    color: $background-black;
+    color: $green-main;
     cursor: pointer;
     animation: moveTrigger 1.1s ease infinite;
+}
+
+.sidebar-trigger:hover {
+    animation-play-state: paused;
 }
 
 .main-header {
