@@ -1,5 +1,52 @@
 @import "variables";
 
 .about {
-    color: $font;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white-main;
+    background-color: $background-black;
+}
+
+.about-list {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__item {
+        width: 25%;
+        padding: 3em 0 3em 0;
+        transform: scale(0.93);
+
+        &-img {
+            width: 260px;
+            height: 260px;
+        }
+
+        &-header {
+            margin-top: 0.5em;
+            padding-left: 20px;
+            font-size: 1.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        &-content {
+            width: 80%;
+            margin-top: 1em;
+            padding-left: 20px;
+            color: $white-second;
+            font-size: 1.1em;
+            line-height: 1.4em;
+        }
+    }
+
+    &__item:hover {
+        color: $green-main;
+        transform: scale(1);
+    }
+
 }
