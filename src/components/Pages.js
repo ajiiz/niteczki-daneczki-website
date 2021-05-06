@@ -1,5 +1,5 @@
 import Homepage from "./Home"
-import Workpage from "./Work"
+import Aboutpage from "./About"
 
 import "../styles/pages.scss"
 
@@ -7,7 +7,7 @@ const Pages = ({ isSidebar }) => {
     return (
         <div className={isSidebar ? "pages pages-active" : "pages"}>
             <Homepage />
-            <Workpage />
+            <Aboutpage />
         </div>
     )
 }
