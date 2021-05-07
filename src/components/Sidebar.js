@@ -21,9 +21,9 @@ const Sidebar = ({ isSidebar, handleSidebar }) => {
             </header>
             <nav className="main-nav">
                 <ul className="main-nav__menu">
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">dom</span></li>
                     <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">o mnie</span></li>
                     <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">prace</span></li>
-                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">galeria</span></li>
                     <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">kontakt</span></li>
                 </ul>
             </nav>
