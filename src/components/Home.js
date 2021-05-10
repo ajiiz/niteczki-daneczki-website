@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="scroll-down">
                 <p className="scroll-down__text">dowiedz się więcej</p>
-                <ArrowDownIcon className="scroll-down__btn" />
+                <ArrowDownIcon className="icon" />
             </div>
         </div>
     )
