@@ -1,7 +1,7 @@
 import React from "react"
 
 import Flowers from "../images/undraw_flowers_vx06.svg"
-import { ArrowDownIcon } from '@heroicons/react/solid'
+import { ArrowDownIcon } from "@heroicons/react/solid"
 
 import "../styles/home.scss"
 

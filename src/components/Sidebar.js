@@ -1,6 +1,6 @@
 import React from "react"
 
-import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/solid'
+import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from "@heroicons/react/solid"
 
 import "../styles/sidebar.scss"
 
