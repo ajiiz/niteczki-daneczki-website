@@ -24,7 +24,7 @@ const Slider = () => {
             {SliderData.map((data, key) => {
                 return (
                     <div
-                        className={key === current ? "slide active" : "slide"}
+                        className={key === current ? "slide slide-active" : "slide"}
                         key={key}
                     >
                         {key === current && (
