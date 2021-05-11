@@ -2,7 +2,8 @@
 
 .work {
     width: 100%;
-    height: 80vh;
+    height: fit-content;
+    padding: 7em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
