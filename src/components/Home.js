@@ -1,7 +1,7 @@
 import React from "react"
 
 import Flowers from "../images/undraw_flowers_vx06.svg"
-import { ArrowDownIcon } from '@heroicons/react/solid'
+import { ArrowDownIcon } from "@heroicons/react/solid"
 
 import "../styles/home.scss"
 
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="scroll-down">
                 <p className="scroll-down__text">dowiedz się więcej</p>
-                <ArrowDownIcon className="scroll-down__btn" />
+                <ArrowDownIcon className="icon" />
             </div>
         </div>
     )

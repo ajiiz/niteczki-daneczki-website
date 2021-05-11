@@ -1,0 +1,34 @@
+@import "variables";
+
+.work {
+    width: 100%;
+    height: fit-content;
+    padding: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: $font;
+    background-color: $white-main;
+}
+
+@media screen and (max-width: 1600px) {
+    .work {
+        font-size: 15px;
+        padding: 7em 0 7em 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .work {
+        flex-direction: column;
+        padding: 4em 0 4em 0;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .work {
+        font-size: 12px;
+    }
+}
