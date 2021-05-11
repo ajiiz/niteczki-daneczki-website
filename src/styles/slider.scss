@@ -40,3 +40,27 @@
     margin-left: 10px;
     animation: moveRight 1.1s ease infinite;
 }
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
