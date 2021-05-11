@@ -64,3 +64,43 @@
         transform: translateX(0px);
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .slider {
+        margin-bottom: 3em;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .slider {
+        font-size: 12px;
+    }
+    .slider-img {
+        width: 40em;
+        height: 30em;
+    }
+
+    .icon-left {
+        display: none;
+    }
+
+    .icon-right {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .slider-img {
+        width: 31em;
+        height: 21em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider-img {
+        width: 27em;
+        height: 17em;
+    }
+}
