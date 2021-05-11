@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 import { SliderData } from "./SliderData"
 import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from "@heroicons/react/solid"
@@ -9,6 +9,14 @@ const Slider = () => {
 
     const [current, setCurrent] = useState(0)
     const length = SliderData.length
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            nextSlide()
+          }, 4000)
+
+          return () => clearInterval(timer)
+    })
 
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1)
