@@ -15,9 +15,28 @@
 
 .slide {
     opacity: 0;
-    transition: opacity .5s ease;
+    transition: opacity 1s ease;
 }
 
 .slide-active {
     opacity: 1;
+}
+
+.icon-left, .icon-right {
+    transition: color .5s ease;
+}
+
+.icon-left:hover, .icon-right:hover {
+    animation-play-state: paused;
+    color: $green-main;
+}
+
+.icon-left {
+    margin-right: 10px;
+    animation: moveLeft 1.1s ease infinite;
+}
+
+.icon-right {
+    margin-left: 10px;
+    animation: moveRight 1.1s ease infinite;
 }
