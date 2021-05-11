@@ -20,7 +20,7 @@ const Slider = () => {
 
     return (
         <div className="slider">
-            <ArrowNarrowLeftIcon className="icon" onClick={prevSlide} />
+            <ArrowNarrowLeftIcon className="icon icon-left" onClick={prevSlide} />
             {SliderData.map((data, key) => {
                 return (
                     <div
@@ -33,7 +33,7 @@ const Slider = () => {
                     </div>
                 )
             })}
-            <ArrowNarrowRightIcon className="icon" onClick={nextSlide} />
+            <ArrowNarrowRightIcon className="icon icon-right" onClick={nextSlide} />
         </div>
     )
 }
