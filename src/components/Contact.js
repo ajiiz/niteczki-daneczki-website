@@ -24,7 +24,7 @@ const Contact = () => {
                     </li>
                 </ul>
                 <a href="https://github.com/ajiiz" target="_blank" rel="noreferrer" className="copyright-link">
-                    © ajiiz.piotrwrobel
+                    © 2021 ajiiz.piotrwrobel
                 </a>
             </div>
         </div>
