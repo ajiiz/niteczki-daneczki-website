@@ -133,4 +133,10 @@
         font-size: 14px;
         width: 60vw;
     }
+
+    .main-header {
+        &__title {
+            font-size: 1.7em;
+        }
+    }
 }
