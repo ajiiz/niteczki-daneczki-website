@@ -8,7 +8,7 @@ import "../styles/about.scss"
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <ul className="about-list">
                 <li className="about-list__item">
                     <img className="about-list__item-img" src={Work} alt="about-work"></img>
