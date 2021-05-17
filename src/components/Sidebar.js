@@ -1,6 +1,7 @@
 import React from "react"
 
 import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from "@heroicons/react/solid"
+import {Link} from 'react-scroll'
 
 import "../styles/sidebar.scss"
 
@@ -21,10 +22,10 @@ const Sidebar = ({ isSidebar, handleSidebar }) => {
             </header>
             <nav className="main-nav">
                 <ul className="main-nav__menu">
-                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">dom</span></li>
-                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">o mnie</span></li>
-                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">prace</span></li>
-                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text">kontakt</span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text"><Link  to="home" spy={true} smooth={true}>dom</Link></span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text"><Link  to="about" spy={true} smooth={true}>o mnie</Link></span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text"><Link  to="work" spy={true} smooth={true}>prace</Link></span></li>
+                    <li className="main-nav__menu-item"><span className="main-nav__menu-item-text"><Link  to="contact" spy={true} smooth={true}>kontakt</Link></span></li>
                 </ul>
             </nav>
             <div className="copyright">
