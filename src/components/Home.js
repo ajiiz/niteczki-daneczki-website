@@ -1,6 +1,7 @@
 import React from "react"
 
 import Flowers from "../images/undraw_flowers_vx06.svg"
+import {Link} from 'react-scroll'
 import { ArrowDownIcon } from "@heroicons/react/solid"
 
 import "../styles/home.scss"
@@ -24,10 +25,12 @@ const Home = () => {
                 </div>
                 <img className="header-image" src={Flowers} alt="header-flowers"></img>
             </div>
-            <div className="scroll-down">
-                <p className="scroll-down__text">dowiedz się więcej</p>
-                <ArrowDownIcon className="icon" />
-            </div>
+            <Link  to="about" spy={true} smooth={true}>
+                <div className="scroll-down">
+                    <p className="scroll-down__text">dowiedz się więcej</p>
+                    <ArrowDownIcon className="icon" />
+                </div>
+            </Link>
         </div>
     )
 }
