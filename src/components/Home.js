@@ -8,7 +8,7 @@ import "../styles/home.scss"
 
 const Home = () => {
     return (
-        <div className="home" id="home">
+        <div className="home">
             <div className="header">
                 <div className="content">
                     <h1 className="content__header">szydełkowa pasja</h1>

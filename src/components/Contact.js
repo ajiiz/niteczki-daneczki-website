@@ -4,7 +4,7 @@ import "../styles/contact.scss"
 
 const Contact = () => {
     return (
-        <div className="contact" id="contact">
+        <div className="contact">
             <div className="wrapper">
                 <ul className="sm-list">
                     <li>
