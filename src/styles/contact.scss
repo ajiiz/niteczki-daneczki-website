@@ -1,1 +1,36 @@
 @import "variables";
+
+.contact {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $white-main;
+    font-size: 16px;
+}
+
+.wrapper {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8em;
+    background-color: $background-black;
+}
+
+.sm-list {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__item-link {
+        transition: color .5s ease;
+
+        &:hover {
+            color: $pink-main;
+        }
+    }
+}
