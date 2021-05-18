@@ -11,7 +11,7 @@ const App = () => {
   const data_PL = Data_PL
   const data_EN = Data_EN
   const [isSidebar, setIsSidebar] = useState(false)
-  const [isPolish, setIsPolish] = useState(true)
+  const [isPolish, setIsPolish] = useState()
   const [content, setContent] = useState(data_PL)
 
   const handleSidebar = () => {
@@ -23,11 +23,26 @@ const App = () => {
   }
 
   useEffect(() => {
+    const json = localStorage.getItem("lang")
+    if (json === "en") {
+     setIsPolish(false)
+    } else {
+      setIsPolish(true)
+    }
+   }, [])
+
+  useEffect(() => {
     const fetchData = async () => {
       const data = isPolish ? data_PL : data_EN
       setContent(data)
    }
    fetchData()
+
+   if (isPolish) {
+    localStorage.setItem("lang", "pl")
+   } else {
+    localStorage.setItem("lang", "en")
+   }
   }, [isPolish])
 
   return (
