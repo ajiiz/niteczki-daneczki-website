@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 
 import "../styles/sidebar.scss"
 
-const Sidebar = ({ isSidebar, handleSidebar }) => {
+const Sidebar = ({ isSidebar, handleSidebar, handleLanguage, isPolish }) => {
     return (
         <div className={isSidebar ? "sidebar sidebar-active" : "sidebar"}>
             {
@@ -36,10 +36,10 @@ const Sidebar = ({ isSidebar, handleSidebar }) => {
                     </span></li>
                 </ul>
             </nav>
-            <div className="toggle-lang">
-                <span className="lang lang-active">PL</span>
-                <input type="checkbox" className="toggle-btn"></input>
-                <span className="lang lang-active">ENG</span>
+            <div className="toggle-section">
+                <span className={isPolish ? "lang lang-active" : "lang"}>PL</span>
+                <input type="checkbox" className="toggle-btn" onClick={handleLanguage}></input>
+                <span className={!isPolish ? "lang lang-active" : "lang"}>ENG</span>
             </div>
             <div className="copyright">
                 <a href="https://github.com/ajiiz" target="_blank" rel="noreferrer" className="copyright-link">
