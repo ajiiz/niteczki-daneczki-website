@@ -96,8 +96,14 @@
     font-family: inherit;
 }
 
-.lang-active {
+.lang {
     opacity: .5;
+    transition: opacity .5s ease;
+}
+
+.lang-active {
+    opacity: 1;
+    transition: opacity .5s ease;
 }
 
 .toggle-btn {
