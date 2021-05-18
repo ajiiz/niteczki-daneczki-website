@@ -17,8 +17,7 @@ const data = {
     },
     gallery: {
         title: "work gallery",
-        content: "I am looking for challenges and I will gladly take new projects. Everything is made carefully and personally by me.",
-        contentGreen: "You can see more work on my instagram.",
+        content: ["I am looking for challenges and I will gladly take new projects.", "Everything is made carefully and personally by me.", "You can see more work on my instagram."],
         btn: "check"
     }
 }

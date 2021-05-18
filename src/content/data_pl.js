@@ -17,8 +17,7 @@ const data = {
     },
     gallery: {
         title: "galeria prac",
-        content: "Szukam wyzwań i z chęcią podejmę się nowych projektów. Wszystko wykonane jest starannie i własnoręcznie przeze mnie.",
-        contentGreen: "Więcej moich prac można zobaczyć na instagramie.",
+        content: ["Szukam wyzwań i z chęcią podejmę się nowych projektów." ,"Wszystko wykonane jest starannie i własnoręcznie przeze mnie.", "Więcej moich prac można zobaczyć na instagramie."],
         btn: "zobacz"
     }
 }
