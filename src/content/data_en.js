@@ -4,8 +4,7 @@ const data = {
     ],
     about: {
         title: "Crochet passion",
-        content: "I combine business with pleasure, creating beautiful things. I crochet customs and I am open to any suggestions.",
-        contentGreen: "Feel free to contact me.",
+        content: ["I combine business with pleasure, creating beautiful things.", "I crochet customs and I am open to any suggestions.", "Feel free to contact me."],
         btn: "contact",
         arrowDown: "see more here"
     },
