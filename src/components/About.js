@@ -6,24 +6,24 @@ import Review from "../images/undraw_reviews_lp8w.svg"
 
 import "../styles/about.scss"
 
-const About = () => {
+const About = ({ content }) => {
     return (
         <div className="about">
             <ul className="about-list">
                 <li className="about-list__item">
                     <img className="about-list__item-img" src={Work} alt="about-work"></img>
-                    <h2 className="about-list__item-header">Praca</h2>
-                    <p className="about-list__item-content">Szybko i dokładnie wykonuję szydełkowe zlecenia.</p>
+                    <h2 className="about-list__item-header">{content.list[0][0]}</h2>
+                    <p className="about-list__item-content">{content.list[0][1]}</p>
                 </li>
                 <li className="about-list__item">
                     <img className="about-list__item-img" src={Send} alt="about-send"></img>
-                    <h2 className="about-list__item-header">Cena i wysłanie</h2>
-                    <p className="about-list__item-content">Cena zależna od projektu jest do ustalenia. Wysyłam paczki w każde zakątki świata.</p>
+                    <h2 className="about-list__item-header">{content.list[1][0]}</h2>
+                    <p className="about-list__item-content">{content.list[1][1]}</p>
                 </li>
                 <li className="about-list__item">
                     <img className="about-list__item-img" src={Review} alt="about-review"></img>
-                    <h2 className="about-list__item-header">Ocena</h2>
-                    <p className="about-list__item-content">Posiadam wiele zadowolonych klientek z całego świata.</p>
+                    <h2 className="about-list__item-header">{content.list[2][0]}</h2>
+                    <p className="about-list__item-content">{content.list[2][1]}</p>
                 </li>
             </ul>
         </div>

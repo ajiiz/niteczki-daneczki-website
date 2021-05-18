@@ -6,20 +6,20 @@ import { ArrowDownIcon } from "@heroicons/react/solid"
 
 import "../styles/home.scss"
 
-const Home = () => {
+const Home = ({ content }) => {
     return (
         <div className="home">
             <div className="header">
                 <div className="content">
-                    <h1 className="content__header">szydełkowa pasja</h1>
+                    <h1 className="content__header">{content.title}</h1>
                     <h3 className="content__info">
-                        <span className="content__info__line">Łącze przyjemne z pożytecznym tworząc piękne rzeczy.</span>
-                        <span className="content__info__line">Szydełkuję na zamówienie i jestem otwarta na propozycję.</span>
-                        <span className="content__info__line">Gorąco zapraszam do kontaktu.</span>
+                        <span className="content__info__line">{content.content[0]}</span>
+                        <span className="content__info__line">{content.content[1]}</span>
+                        <span className="content__info__line">{content.content[2]}</span>
                     </h3>
                     <a href="https://www.facebook.com/danutawrobel1950" target="_blank" rel="noreferrer">
                         <button className="content__contact">
-                            kontakt
+                        {content.btn}
                         </button>
                     </a>
                 </div>
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <Link  to="about" spy={true} smooth={true}>
                 <div className="scroll-down">
-                    <p className="scroll-down__text">dowiedz się więcej</p>
+                    <p className="scroll-down__text">{content.arrowDown}</p>
                     <ArrowDownIcon className="icon" />
                 </div>
             </Link>
