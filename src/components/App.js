@@ -10,7 +10,7 @@ const App = () => {
 
   const [isSidebar, setIsSidebar] = useState(false)
   const [isPolish, setIsPolish] = useState(true)
-  const [content, setContent] = useState()
+  const [content, setContent] = useState(Data_PL)
 
   const handleSidebar = () => {
     setIsSidebar(!isSidebar)
@@ -30,8 +30,8 @@ const App = () => {
 
   return (
     <div className="main">
-      <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} handleLanguage={handleLanguage} isPolish={isPolish}/>
-      <Pages isSidebar={isSidebar}/>
+      <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} handleLanguage={handleLanguage} isPolish={isPolish} content={content.sidebar}/>
+      <Pages isSidebar={isSidebar} />
     </div>
   )
 }
