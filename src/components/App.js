@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div className="main">
       <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} handleLanguage={handleLanguage} isPolish={isPolish} content={content.sidebar}/>
-      <Pages isSidebar={isSidebar} content={content.sidebar}/>
+      <Pages isSidebar={isSidebar} content={content}/>
     </div>
   )
 }
