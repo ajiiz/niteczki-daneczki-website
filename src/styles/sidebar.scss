@@ -93,6 +93,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: inherit;
+}
+
+.lang-active {
+    opacity: .5;
 }
 
 .toggle-btn {
