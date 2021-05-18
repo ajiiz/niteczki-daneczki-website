@@ -199,4 +199,20 @@
             font-size: 1.7em;
         }
     }
+
+    .lang {
+        font-size: 11px;
+    }
+
+    .toggle-btn {
+        transform: translateY(-3px);
+    }
+
+    .toggle-btn::before {
+        height: 18px;
+    }
+
+    .toggle-btn::after {
+        height: 18px;
+    }
 }
