@@ -36,6 +36,11 @@ const Sidebar = ({ isSidebar, handleSidebar }) => {
                     </span></li>
                 </ul>
             </nav>
+            <div className="toggle-lang">
+                <span className="lang lang-active">PL</span>
+                <input type="checkbox" className="toggle-btn"></input>
+                <span className="lang lang-active">ENG</span>
+            </div>
             <div className="copyright">
                 <a href="https://github.com/ajiiz" target="_blank" rel="noreferrer" className="copyright-link">
                     © 2021 ajiiz.piotrwrobel
