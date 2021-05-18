@@ -8,9 +8,11 @@ import Data_EN from "../content/data_en"
 
 const App = () => {
 
+  const data_PL = Data_PL
+  const data_EN = Data_EN
   const [isSidebar, setIsSidebar] = useState(false)
   const [isPolish, setIsPolish] = useState(true)
-  const [content, setContent] = useState(Data_PL)
+  const [content, setContent] = useState(data_PL)
 
   const handleSidebar = () => {
     setIsSidebar(!isSidebar)
@@ -22,7 +24,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = isPolish ? Data_PL : Data_EN
+      const data = isPolish ? data_PL : data_EN
       setContent(data)
    }
    fetchData()
