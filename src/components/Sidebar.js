@@ -38,7 +38,7 @@ const Sidebar = ({ isSidebar, handleSidebar, handleLanguage, isPolish, content }
             </nav>
             <div className="toggle-section">
                 <span className={isPolish ? "lang lang-active" : "lang"}>PL</span>
-                <input type="checkbox" className="toggle-btn" onClick={handleLanguage} checked={!isPolish}></input>
+                <input type="checkbox" className="toggle-btn" onChange={handleLanguage} checked={!isPolish}></input>
                 <span className={!isPolish ? "lang lang-active" : "lang"}>ENG</span>
             </div>
             <div className="copyright">
