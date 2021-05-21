@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { getUserLocale } from "get-user-locale"
 
 import Sidebar from "./Sidebar"
 import Pages from "./Pages"
@@ -24,7 +25,7 @@ const App = () => {
 
   useEffect(() => {
     const json = localStorage.getItem("lang")
-    if (json === "en") {
+    if (json === "en" || getUserLocale() !== "pl") {
      setIsPolish(false)
     } else {
       setIsPolish(true)
