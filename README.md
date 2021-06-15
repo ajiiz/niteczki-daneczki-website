@@ -9,7 +9,7 @@
 * [Contact](#contact)
 
 ## Status
-#### Published live version at: [niteczki-daneczki](link)
+#### Published live version at: [niteczki-daneczki](https://niteczki-daneczki.netlify.app/)
 
 ## Technologies
 #### Project is created with:
