@@ -4,7 +4,7 @@ const data = {
     ],
     about: {
         title: "Szydełkowa pasja",
-        content: ["Łącze przyjemne z pożytecznym tworząc piękne rzeczy.", "Szydełkuję na zamówienie i jestem otwarta na propozycję.", "Gorąco zapraszam do kontaktu."],
+        content: ["Łącze przyjemne z pożytecznym tworząc piękne rzeczy.", "Szydełkuję na zamówienie i jestem otwarta na propozycje.", "Gorąco zapraszam do kontaktu."],
         btn: "kontakt",
         arrowDown: "dowiedz się więcej"
     },
