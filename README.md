@@ -1,6 +1,5 @@
 # niteczki-daneczki
-
-*niteczki-daneczki* website about crochet passion.
+*niteczki-daneczki* is a website about crochet passion.
 
 ## Table of contents
 * [Status](#status)
@@ -9,13 +8,11 @@
 * [Contact](#contact)
 
 ## Status
-#### Published live version at: [niteczki-daneczki](https://niteczki-daneczki.netlify.app/)
+Published live version at: [niteczki-daneczki](https://niteczki-daneczki.netlify.app/)
 
 ## Technologies
-#### Project is created with:
-* ReactJS
-* React Hooks
-* SCSS
+The website is built using the following technologies:
+* <b>Frontend</b>: React.js, React Hooks, SCSS
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
